@@ -1,0 +1,17 @@
+main: me.naptie.bukkit.inventory.Main
+name: NeonInventory
+version: 2.0.0
+api-version: "1.15"
+author: Naptie
+depend:
+- NeonBukkitCore
+- NeonPlayer
+commands:
+  inventory:
+    aliases: [menu, menus, openmenu, inventories, inv, openinventory, openinventories, openinv]
+    description: To open an inventory.
+    usage: /<command> <inventory>
+permissions:
+  raypixel.menu:
+    default: op
+    description: Allows players to perform /inventory.

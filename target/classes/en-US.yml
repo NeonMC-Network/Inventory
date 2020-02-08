@@ -1,0 +1,6 @@
+LANGUAGE: "English (US)"
+NOT_A_PLAYER: "&cThis command can only be performed by a player in game!"
+PERMISSION_DENIED: "&cPermission denied!"
+CONFIG_IS_NULL: "&cThe configuration file is null!"
+USAGE: "&cUsage: %usage%"
+MENU_NOT_FOUND: "&cMenu '%menu%' isn't found!"

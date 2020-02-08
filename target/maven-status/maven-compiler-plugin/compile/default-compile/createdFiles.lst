@@ -1,0 +1,8 @@
+me\naptie\bukkit\inventory\Permissions.class
+me\naptie\bukkit\inventory\utils\ConfigManager.class
+me\naptie\bukkit\inventory\listeners\PlayerInteract.class
+me\naptie\bukkit\inventory\Messages.class
+me\naptie\bukkit\inventory\Main.class
+me\naptie\bukkit\inventory\commands\Inventories.class
+me\naptie\bukkit\inventory\utils\CU.class
+me\naptie\bukkit\inventory\listeners\InventoryClick.class

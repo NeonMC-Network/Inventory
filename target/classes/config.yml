@@ -1,0 +1,261 @@
+languages:
+- en-US
+- en-GB
+- zh-CN
+items:
+  serverselector:
+    slot: 0
+    material: COMPASS
+    count: 1
+    name:
+      en-US: "&aGame Menu &7(Right Click)"
+      en-GB: "&aGame Menu &7(Right Click)"
+      zh-CN: "&a游戏菜单 &7（右键点击）"
+    lore:
+      en-US:
+      - "&7Right-click to bring up the Game Menu!"
+      en-GB:
+      - "&7Right-click to bring up the Game Menu!"
+      zh-CN:
+      - "&7右键点击显示游戏菜单！"
+    spawn: true
+    actions:
+      right-click:
+        inventory: serverselector
+  profile:
+    slot: 1
+    material: LEGACY_SKULL_ITEM
+    owner: "?sender"
+    count: 1
+    name:
+      en-US: "&aMy Profile &7(Right Click)"
+      en-GB: "&aMy Profile &7(Right Click)"
+      zh-CN: "&a个人资料 &7（右键点击）"
+    lore:
+      en-US:
+      - "&7Right-click to view your profile!"
+      en-GB:
+      - "&7Right-click to view your profile!"
+      zh-CN:
+      - "&7右键点击查看您的个人资料！"
+    spawn: true
+    actions:
+      right-click:
+        command: profile
+  store:
+    slot: 2
+    material: EMERALD
+    count: 1
+    name:
+      en-US: "&aStore &7(Right Click)"
+      en-GB: "&aShop &7(Right Click)"
+      zh-CN: "&a商店 &7（右键点击）"
+    lore:
+      en-US:
+      - "&7Right-click to show the store!"
+      en-GB:
+      - "&7Right-click to show the store!"
+      zh-CN:
+      - "&7右键点击查看商店！"
+    spawn: true
+    actions:
+      right-click:
+        inventory: store
+  playervisibility:
+    slot: 7
+    material: LIME_DYE
+    count: 1
+    name:
+      en-US: "&aPlayer Visibility &7(Right Click)"
+      en-GB: "&aPlayer Visibility &7(Right Click)"
+      zh-CN: "&a玩家可见性 &7（右键点击）"
+    lore:
+      en-US:
+      - "&7Right-click to toggle player visibility!"
+      en-GB:
+      - "&7Right-click to toggle player visibility!"
+      zh-CN:
+      - "&7右键点击切换玩家可见性！"
+    spawn: true
+    actions:
+      right-click:
+        command: viewplayers
+  lobbyselector:
+    slot: 8
+    material: NETHER_STAR
+    count: 1
+    name:
+      en-US: "&aLobby Selector &7(Right Click)"
+      en-GB: "&aLobby Selector &7(Right Click)"
+      zh-CN: "&a选择大厅 &7（右键点击）"
+    lore:
+      en-US:
+      - "&7Right-click to switch between different lobbies!"
+      en-GB:
+      - "&7Right-click to switch between different lobbies!"
+      zh-CN:
+      - "&7右键点击以在不同大厅间切换！"
+    spawn: true
+    actions:
+      right-click:
+        command: selectlobby
+  lobby:
+    slot: 10
+    material: BOOKSHELF
+    count: 1
+    name:
+      en-US: "&aMain Lobby"
+      en-GB: "&aMain Lobby"
+      zh-CN: "&a主大厅"
+    lore:
+      en-US:
+      - "&7The Main Lobby of NeonMC."
+      en-GB:
+      - "&7The Main Lobby of NeonMC."
+      zh-CN:
+      - "&7NeonMC 的主大厅。"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: lobby01
+  skywars:
+    slot: 12
+    material: ENDER_EYE
+    count: 1
+    name:
+      en-US: "&aSky Wars"
+      en-GB: "&aSky Wars"
+      zh-CN: "&a空岛战争"
+    lore:
+      en-US:
+      - "&7Gather resources and equipment on your island"
+      - "&7in order to eliminate every other player."
+      - "&7Go to the center island for special chests"
+      - "&7with special items!"
+      en-GB:
+      - "&7Gather resources and equipment on your island"
+      - "&7in order to eliminate every other player."
+      - "&7Go to the center island for special chests"
+      - "&7with special items!"
+      zh-CN:
+      - "&7在你的岛上面收集资源和装备"
+      - "&7以消灭所有其他的玩家。"
+      - "&7登上中心岛以获得特殊箱子"
+      - "&7和特殊物品！"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: skywars01
+  bedwars:
+    slot: 13
+    material: RED_BED
+    count: 1
+    name:
+      en-US: "&aBed Wars"
+      en-GB: "&aBed Wars"
+      zh-CN: "&a起床战争"
+    lore:
+      en-US:
+      - "&7Protect your bed and destroy the enemy beds."
+      - "&7Upgrade yourself and your team by collecting"
+      - "&7Iron, Gold, Emerald and Diamond from generators"
+      - "&7to access powerful upgrades."
+      en-GB:
+      - "&7Protect your bed and destroy the enemy beds."
+      - "&7Upgrade yourself and your team by collecting"
+      - "&7Iron, Gold, Emerald and Diamond from generators"
+      - "&7to access powerful upgrades."
+      zh-CN:
+      - "&7保护你的床并摧毁敌人的床。"
+      - "&7从资源生成点收集铁锭、金锭、"
+      - "&7绿宝石和钻石来升级，"
+      - "&7使自身和队伍变得更强。"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: integration01
+  thebridge:
+    slot: 14
+    material: RED_TERRACOTTA
+    count: 1
+    name:
+      en-US: "&aThe Bridge"
+      en-GB: "&aThe Bridge"
+      zh-CN: "&a独木桥"
+    lore:
+      en-US:
+      - "&7Cross the bridge to score for your team."
+      - "&7Fend off opposing players that get in your way."
+      - "&7First team to score 5 goals wins!"
+      en-GB:
+      - "&7Cross the bridge to score for your team."
+      - "&7Fend off opposing players that get in your way."
+      - "&7First team to score 5 goals wins!"
+      zh-CN:
+      - "&7穿越桥梁，为本方获取分数。"
+      - "&7击落阻挡你的敌人。"
+      - "&7率先达到5分的队伍获胜！"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: integration02
+  practice:
+    slot: 15
+    material: DIAMOND_SWORD
+    count: 1
+    name:
+      en-US: "&aPvP Practice"
+      en-GB: "&aPvP Practice"
+      zh-CN: "&aPvP练习"
+    lore:
+      en-US:
+      - "&7Practice your PvP skills with others!"
+      en-GB:
+      - "&7Practice your PvP skills with others!"
+      zh-CN:
+      - "&7与其他玩家练习PvP技巧！"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: integration03
+  survival01:
+    slot: 15
+    material: DIAMOND_SWORD
+    count: 1
+    name:
+      en-US: "&aPvP Practice"
+      en-GB: "&aPvP Practice"
+      zh-CN: "&aPvP练习"
+    lore:
+      en-US:
+      - "&7Practice your PvP skills with others!"
+      en-GB:
+      - "&7Practice your PvP skills with others!"
+      zh-CN:
+      - "&7与其他玩家练习PvP技巧！"
+    spawn: false
+    actions:
+      inv-click:
+        bungee: integration03
+
+menus:
+  serverselector:
+    title:
+      en-US: "Game Menu"
+      en-GB: "Game Menu"
+      zh-CN: "游戏菜单"
+    size: 54
+    contents:
+    - lobby
+    - skywars
+    - bedwars
+    - thebridge
+    - practice
+  store:
+    title:
+      en-US: "Store"
+      en-GB: "Shop"
+      zh-CN: "商店"
+    size: 54
+    contents:
+      -
